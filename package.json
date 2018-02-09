@@ -1,0 +1,22 @@
+{
+  "name": "sample-react-project",
+  "version": "1.0.0",
+  "description": "A sample react project to learn reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server index.js"
+  },
+  "author": "sudhir meena",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-react": "^7.0.0-beta.39",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
